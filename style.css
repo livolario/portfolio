@@ -1,0 +1,79 @@
+:root{
+    --brand-roxo: #8800FF;
+    --brand-rosa: #FB00FF;
+    --brand-azul: #1100FF;
+    --brand-preto: #000000;
+    --brand-branco: #ffff;
+    --brand-ciano: #00EEFF;
+}
+
+
+
+.bg-brand-preto{
+    background-color: var(--brand-preto);
+}
+
+/* TEXTOS */
+
+.text-brand-roxo{
+    color: var(--brand-roxo);
+}
+
+.text-brand-rosa{
+    color: var(--brand-rosa);
+}
+
+/* Elementos */
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+/* Estilização da foto de perfil */
+.foto {
+    width: 180px;
+    height: 180px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    
+    
+    border: 2px solid var(--brand-rosa);
+    box-shadow: 0 0 25px var(--brand-roxo);
+}
+
+/* Bordas Neon */
+.borda-rosa {
+    border: 2px solid var(--brand-rosa);
+}
+
+.borda-rosa-baixo {
+    border-bottom: 2px solid var(--brand-rosa);
+}
+
+/* Efeito de brilho nos textos grandes igual ao da sua imagem */
+.texto-neon-rosa {
+    color: var(--brand-rosa);
+    text-shadow: 2px 2px 10px var(--brand-roxo);
+}
+
+.texto-neon-roxo {
+    color: var(--brand-roxo);
+    text-shadow: 
+    5px 5px 5px var(--brand-rosa),
+    5px 5px 15px var(--brand-rosa),
+    5px 5px 20px var(--brand-rosa);
+
+}
+
+/* .texto-neon-roxo {
+    color: var(--brand-roxo);
+    text-shadow: 
+        0 0 5px var(--brand-rosa),
+        0 0 15px var(--brand-rosa),
+        0 0 30px var(--brand-rosa);
+} */
+
+.empurra-foto {
+    margin-left: 25rem; 
+}
